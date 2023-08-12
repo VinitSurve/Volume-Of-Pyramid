@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script language="Javascript">
+            function volume()
+            {
+                var a,b,c,d;
+             B=parseInt(f1.t1.value);
+             b=parseInt(f1.t2.value);
+             h=parseInt(f1.t3.value);
+             d=B*b*h/3;
+             f1.t4.value=+d;
+            }
+        </script>
+    </head>
+    <body>
+    <font color="Purple">
+        <h1>Formula </h1>
+        <font color="Black"><h3>Pyramid</h3></font>
+    </font>
+    <hr width="150" align="left">
+    Volume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= B x b x h / 3<br>
+    <font color="purple"><h1>Variables</h1></font>
+    <form name="f1">
+        Base Length&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t1"><br><br>
+        Breadth width&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="t2"><br><br>
+       Height &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t3"><br><br>
+    <font color="purple"><h1>Calculations</h1></font>
+        <input type="text" name="t4"><br><br />
+        <input type="button" value="Volume" onClick="volume()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+        
+    </form>
+    
+    
+        
+    </body>
+</html>
